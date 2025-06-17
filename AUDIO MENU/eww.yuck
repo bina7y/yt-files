@@ -18,7 +18,7 @@
             (
                 button 
                 :class "exit" 
-                :onclick "eww open audio_menu --toggle"
+                :onclick "eww open --config ~/.config/eww/aud_men audio_menu --toggle"
                 (label :text " ")
             )
         )
